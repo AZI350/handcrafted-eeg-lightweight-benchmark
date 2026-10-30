@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+*.log
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Licensed or large datasets
+data/**/*.npz
+data/**/*.mat
+data/**/*.bdf
+data/**/*.cnt
+data/**/*.zip
+data/**/*.json
+scratch/
+
+# Training artefacts
+results/
+pipelines/**/results/
+pipelines/**/outputs/
+**/_feature_cache/
+*.pt
+*.pth
+*.ckpt
+
+# Generated figures (source CSV files remain tracked)
+analysis/figures/
+analysis/origin_figures/
+environment_freeze.txt

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article."
+title: "Handcrafted EEG Lightweight Benchmark"
+type: software
+authors:
+  - family-names: "He"
+    given-names: "Ziyang"
+version: 0.1.0
+date-released: 2026-10-30
+abstract: "Reproduction code for a five-dataset study of handcrafted features in lightweight EEG emotion recognition."
+preferred-citation:
+  type: article
+  title: "When Do Handcrafted Features Help Lightweight EEG Networks? Evidence From Five Emotion Recognition Datasets"
+  authors:
+    - family-names: "He"
+      given-names: "Ziyang"
+  notes: "Replace this note with the final journal, year, volume, pages, and DOI after acceptance."
